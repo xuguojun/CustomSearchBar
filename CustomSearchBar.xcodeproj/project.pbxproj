@@ -17,6 +17,7 @@
 		9A4C590F1B52B455000414E2 /* GJSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C590E1B52B455000414E2 /* GJSearchBar.m */; };
 		9A4C59111B52B462000414E2 /* GJSearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C59101B52B462000414E2 /* GJSearchBar.xib */; };
 		9A4C59141B52B6D9000414E2 /* UIColor+GJColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C59131B52B6D9000414E2 /* UIColor+GJColor.m */; };
+		9A4C59171B52BF91000414E2 /* Screen Shot 2015-07-12 at 23.17.20.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C59161B52BF91000414E2 /* Screen Shot 2015-07-12 at 23.17.20.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		9A4C59101B52B462000414E2 /* GJSearchBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GJSearchBar.xib; sourceTree = "<group>"; };
 		9A4C59121B52B6D9000414E2 /* UIColor+GJColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GJColor.h"; sourceTree = "<group>"; };
 		9A4C59131B52B6D9000414E2 /* UIColor+GJColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GJColor.m"; sourceTree = "<group>"; };
+		9A4C59161B52BF91000414E2 /* Screen Shot 2015-07-12 at 23.17.20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-07-12 at 23.17.20.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		9A4C58E51B52B3AF000414E2 /* CustomSearchBar */ = {
 			isa = PBXGroup;
 			children = (
+				9A4C59161B52BF91000414E2 /* Screen Shot 2015-07-12 at 23.17.20.png */,
 				9A4C58EA1B52B3AF000414E2 /* AppDelegate.h */,
 				9A4C58EB1B52B3AF000414E2 /* AppDelegate.m */,
 				9A4C59151B52B6E0000414E2 /* Utilities */,
@@ -232,6 +235,7 @@
 				9A4C58F21B52B3AF000414E2 /* Main.storyboard in Resources */,
 				9A4C58F71B52B3AF000414E2 /* LaunchScreen.xib in Resources */,
 				9A4C58F41B52B3AF000414E2 /* Images.xcassets in Resources */,
+				9A4C59171B52BF91000414E2 /* Screen Shot 2015-07-12 at 23.17.20.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
