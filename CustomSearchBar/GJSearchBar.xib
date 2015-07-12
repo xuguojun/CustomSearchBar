@@ -23,6 +23,9 @@
                         <constraint firstAttribute="height" constant="48" id="xZ3-Au-YjA"/>
                     </constraints>
                     <state key="normal" backgroundImage="audio_recorder"/>
+                    <connections>
+                        <action selector="audioRecordButtonDidPress:" destination="-1" eventType="touchUpInside" id="lj2-iL-0os"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8va-Mw-Xej">
                     <rect key="frame" x="552" y="0.0" width="48" height="48"/>
@@ -32,6 +35,9 @@
                     <state key="normal" title="取消">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="cancelButtonDidPress:" destination="-1" eventType="touchUpInside" id="iAY-fh-Vab"/>
+                    </connections>
                 </button>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入关键词" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vd4-Nn-1sd">
                     <rect key="frame" x="40" y="9" width="512" height="30"/>
@@ -39,7 +45,10 @@
                         <constraint firstAttribute="height" constant="30" id="whW-qW-B7m"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="h1s-au-rkP"/>
+                    </connections>
                 </textField>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

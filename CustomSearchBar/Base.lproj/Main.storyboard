@@ -23,6 +23,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="qe3-8p-QSd"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="WHw-an-bBU"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -32,6 +35,9 @@
                             <constraint firstItem="7Dc-By-ac9" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="eps-qc-UYE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="searchBar" destination="7Dc-By-ac9" id="TG1-xt-0Un"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

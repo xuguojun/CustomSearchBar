@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "GJSearchBar.h"
 
-@interface ViewController ()
+@interface ViewController ()<GJSearchBarDelegate>
+
+@property (nonatomic, weak) IBOutlet GJSearchBar *searchBar;
 
 @end
 
@@ -17,6 +20,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+}
+
+#pragma mark - GJSearchBarDelegate
+- (void)searchBarAudioRecordButtonDidPress:(GJSearchBar *)searchBar{
+    NSLog(@"%@", NSStringFromSelector(_cmd));
+}
+
+- (void)searchBarCancelButtonDidPress:(GJSearchBar *)searchBar{
+    NSLog(@"%@", NSStringFromSelector(_cmd));
+    self.searchBar.keyboardHidden = YES;
+}
+
+- (void)searchBarDidBeginEditing:(GJSearchBar *)searchBar{
+    NSLog(@"%@", NSStringFromSelector(_cmd));
+}
+
+- (void)searchBarOnEditing:(GJSearchBar *)searchBar{
+    NSLog(@"%@", NSStringFromSelector(_cmd));
+}
+
+- (void)searchBarSearchButtonDidPress:(GJSearchBar *)searchBar{
+    NSLog(@"%@", NSStringFromSelector(_cmd));
 }
 
 @end
